@@ -1,0 +1,11 @@
+public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Nhap vao so X: ");
+        int x = sc.nextInt();
+        System.out.println("Nhao vao so y: ");
+        int y = sc.nextInt();
+        int z = x;
+        x = y;
+        y = z;
+        System.out.println("Sau khi hoan vi, x = " + x + ", y = " + y);
+    }
