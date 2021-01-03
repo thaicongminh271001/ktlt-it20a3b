@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class baitap6_3 {
+    long NhiPhan(int a)
+    {
+        long b;
+        if(a==0)
+            return 0;
+        else
+            b=a%2;
+        return NhiPhan(a/2)*10+b;
+    }
+}
